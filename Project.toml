@@ -1,0 +1,17 @@
+name = "QCSR"
+uuid = "31851a07-8ce5-4a98-af99-b32056fdd1d1"
+authors = ["Guido Masella <guido.masella@qperfect.io>"]
+version = "0.4.0"
+
+[deps]
+BiMaps = "02e1a8d2-c0bf-449f-9d6e-85b4cfc6bdab"
+
+[compat]
+julia = "1.6"
+
+[extras]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "Random"]
